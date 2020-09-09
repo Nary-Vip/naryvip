@@ -21,6 +21,8 @@ print(arr)
 space_row = 0
 space_col = 0
 
+print()
+
 def hueristic(nom):# Here the best choice is chosen which has less no misplaces elements as compared to goal state.
     global arr , goal ,temp1 , temp2 , temp3 , temp4
     temp = [temp1 , temp2 , temp3 , temp4]#Arrray consist of all 4 possible matrix
